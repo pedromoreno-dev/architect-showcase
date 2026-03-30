@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏛️ Architect Showcase | Personal Portfolio
 
-# Run and deploy your AI Studio app
+[![Security: Snyk](https://snyk.io/test/github/pedro-dev-ops/architect-showcase/badge.svg)](https://app.snyk.io/org/pcmoreno11/project/f44fa31c-f996-4f0b-a78a-79a1609776ae)
+![Nuxt 3](https://img.shields.io/badge/Nuxt-3.x-00DC82?logo=nuxt.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.x-38B2AC?logo=tailwind-css&logoColor=white)
 
-This contains everything you need to run your app locally.
+> **Arquitectura de Software y Ecosistemas Digitales a Medida.** > Una plataforma personal diseñada para mostrar soluciones SaaS robustas y automatizaciones proactivas.
 
-View your app in AI Studio: https://ai.studio/apps/71d52f7e-ebc4-424b-8d40-417b6b7041b7
+---
 
-## Run Locally
+## 🚀 Vision & Philosophy
+Este proyecto no es solo un portfolio; es una muestra real de mi **metodología de trabajo**. Cada línea de código está pensada para ser escalable, segura y bilingüe (ES/EN), aplicando los mismos estándares que utilizo en proyectos Enterprise y SaaS Fintech.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack & Architecture
+- **Framework:** [Nuxt 3](https://nuxt.com/) (Vue.js 3 + Composition API).
+- **Language:** TypeScript para un tipado estricto y seguro.
+- **Styling:** Tailwind CSS con diseño basado en **Bento Grid**.
+- **Internationalization:** `@nuxtjs/i18n` para soporte nativo multilingüe.
+- **Security:** Escaneo continuo de dependencias con **Snyk**.
+- **Deployment:** CI/CD automatizado vía **Vercel**.
 
+## 🧩 Key Sections
+1. **SaaS Hub:** Enfoque en arquitectura financiera y seguridad (Ej: [BillFlow-SaaS](https://github.com/TU_USUARIO/BillFlow-SaaS)).
+2. **Automation Center:** Flujos de trabajo eficientes mediante **n8n**.
+3. **Custom Engineering:** Soluciones de consultoría técnica, APIs y rescate de código legacy.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛡️ Security & CI/CD
+El repositorio implementa flujos de trabajo de **GitHub Actions** que validan:
+- Seguridad de dependencias (Snyk Scan).
+- Integridad del Build de producción.
+- Protección de la rama `main` mediante Pull Requests obligatorias.
+

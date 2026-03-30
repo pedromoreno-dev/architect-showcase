@@ -1,23 +1,33 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --color-bg: #050505;
+  --color-primary-white: #F9F9F9;
+  --color-accent-blue: #0070F3;
+  --color-accent-green: #00C853;
+  --color-accent-amber: #FFB000;
+}
 
 @layer base {
   :root {
     --background: 5 5 5;
     --foreground: 249 249 249;
     --primary: 249 249 249;
-    --accent-blue: 0 112 243;
-    --accent-green: 0 200 83;
-    --accent-amber: 255 176 0;
+    --accent-blue-rgb: 0 112 243;
+    --accent-green-rgb: 0 200 83;
+    --accent-amber-rgb: 255 176 0;
   }
-}
 
-body {
-  background-color: #050505;
-  color: #F9F9F9;
-  font-family: 'Manrope', sans-serif;
-  -webkit-font-smoothing: antialiased;
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-primary-white);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 .glass {
