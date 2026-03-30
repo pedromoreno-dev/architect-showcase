@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "projects": "PROYECTOS",
+    "solutions": "SOLUCIONES",
+    "blog": "BLOG",
+    "contact": "CONTACTO"
+  },
+  "hero": {
+    "badge": "λ ARQUITECTURA DE SOFTWARE",
+    "title": "Diseñando el Cerebro Modular de tu Producto.",
+    "description": "Ingeniería de alta precisión para startups que escalan. Construyo sistemas modulares, automatizaciones complejas y arquitecturas SaaS que respiran eficiencia.",
+    "cta_primary": "Iniciar Proyecto",
+    "cta_secondary": "Ver Proyectos"
+  },
+  "solutions": {
+    "title": "Solutions Hub",
+    "subtitle": "Estructuras especializadas para desafíos técnicos de alto nivel.",
+    "description": "Estructuras especializadas para desafíos técnicos de alto nivel.",
+    "available": "SERVICIOS DISPONIBLES",
+    "saas": {
+      "label": "SAAS DEVELOPMENT",
+      "title": "Arquitecturas Escalables",
+      "description": "Sistemas multi-tenant diseñados para el crecimiento masivo con mínima fricción técnica.",
+      "tags": ["REACT", "NODE.JS", "AWS"]
+    },
+    "automations": {
+      "label": "AUTOMATIONS",
+      "title": "Flujos con n8n",
+      "description": "Elimina cuellos de botella mediante la interconexión inteligente de herramientas. Orquestación total de datos.",
+      "tags": ["N8N", "WEBHOOKS", "CUSTOM API"]
+    },
+    "consulting": {
+      "label": "CONSULTING",
+      "title": "Estrategia",
+      "description": "Auditoría de stack técnico y planificación modular de tu producto.",
+      "tags": ["AUDITORÍA", "ROADMAP", "ESCALADO"]
+    }
+  },
+  "showcase": {
+    "title": "Selección de Proyectos",
+    "subtitle": "Soluciones reales para problemas de infraestructura.",
+    "description": "Soluciones reales para problemas de infraestructura.",
+    "view_archive": "Ver Archivo",
+    "project1": {
+      "title": "BillFlow-SaaS",
+      "description": "Infraestructura de facturación automatizada para startups B2B."
+    },
+    "project2": {
+      "title": "Integration Workflows",
+      "description": "Orquestación de flujos n8n para optimización de e-commerce global."
+    }
+  },
+  "mindset": {
+    "title": "La Mentalidad detrás del Código.",
+    "item1_title": "Abstracción Modular",
+    "item1_desc": "No escribo código aislado; construyo bloques reutilizables que permiten evolucionar sin romper la base.",
+    "item2_title": "Eficiencia Radical",
+    "item2_desc": "Si puede automatizarse, debe automatizarse. El tiempo es el recurso más caro de una organización.",
+    "item3_title": "Documentación Viva",
+    "item3_desc": "La arquitectura debe ser legible. Entrego sistemas que tu equipo puede entender y heredar.",
+    "status": "SYSTEM STATUS",
+    "status_val": "Arquitectura Optimizada"
+  },
+  "cta_section": {
+    "title": "Ready to scale?",
+    "button": "Hablemos hoy"
+  },
+  "footer": {
+    "rights": "© 2024 The Modular Engineer. Built for scale."
+  }
+}

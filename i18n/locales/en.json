@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "projects": "PROJECTS",
+    "solutions": "SOLUTIONS",
+    "blog": "BLOG",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "badge": "λ SOFTWARE ARCHITECTURE",
+    "title": "Designing your Product's Modular Brain.",
+    "description": "High-precision engineering for startups that scale. I build modular systems, complex automations, and SaaS architectures that breathe efficiency.",
+    "cta_primary": "Start Project",
+    "cta_secondary": "View Projects"
+  },
+  "solutions": {
+    "title": "Solutions Hub",
+    "subtitle": "Specialized structures for high-level technical challenges.",
+    "description": "Specialized structures for high-level technical challenges.",
+    "available": "AVAILABLE SERVICES",
+    "saas": {
+      "label": "SAAS DEVELOPMENT",
+      "title": "Scalable Architectures",
+      "description": "Multi-tenant systems designed for massive growth with minimal technical friction.",
+      "tags": ["REACT", "NODE.JS", "AWS"]
+    },
+    "automations": {
+      "label": "AUTOMATIONS",
+      "title": "Flows with n8n",
+      "description": "Eliminate bottlenecks through intelligent tool interconnection. Total data orchestration.",
+      "tags": ["N8N", "WEBHOOKS", "CUSTOM API"]
+    },
+    "consulting": {
+      "label": "CONSULTING",
+      "title": "Strategy",
+      "description": "Technical stack audit and modular planning for your product.",
+      "tags": ["AUDIT", "ROADMAP", "SCALING"]
+    }
+  },
+  "showcase": {
+    "title": "Project Selection",
+    "subtitle": "Real solutions for infrastructure problems.",
+    "description": "Real solutions for infrastructure problems.",
+    "view_archive": "View Archive",
+    "project1": {
+      "title": "BillFlow-SaaS",
+      "description": "Automated billing infrastructure for B2B startups."
+    },
+    "project2": {
+      "title": "Integration Workflows",
+      "description": "n8n flow orchestration for global e-commerce optimization."
+    }
+  },
+  "mindset": {
+    "title": "The Mindset Behind the Code.",
+    "item1_title": "Modular Abstraction",
+    "item1_desc": "I don't write isolated code; I build reusable blocks that allow evolution without breaking the base.",
+    "item2_title": "Radical Efficiency",
+    "item2_desc": "If it can be automated, it should be automated. Time is an organization's most expensive resource.",
+    "item3_title": "Living Documentation",
+    "item3_desc": "Architecture must be legible. I deliver systems that your team can understand and inherit.",
+    "status": "SYSTEM STATUS",
+    "status_val": "Optimized Architecture"
+  },
+  "cta_section": {
+    "title": "Ready to scale?",
+    "button": "Let's talk today"
+  },
+  "footer": {
+    "rights": "© 2024 The Modular Engineer. Built for scale."
+  }
+}

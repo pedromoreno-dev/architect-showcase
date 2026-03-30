@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port=3000 --host=0.0.0.0",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "nuxi typecheck"
+  },
+  "dependencies": {
+    "@google/genai": "^1.47.0",
+    "@intlify/core-base": "^11.3.0",
+    "@intlify/shared": "^11.3.0",
+    "@nuxtjs/i18n": "^10.2.4",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@vueuse/motion": "^3.0.3",
+    "autoprefixer": "^10.4.27",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "lucide-vue-next": "^1.0.0",
+    "nuxt": "^4.4.2",
+    "postcss": "^8.5.8",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^3.4.19",
+    "vue": "^3.5.31",
+    "vue-i18n": "^11.3.0",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "~6.0.2",
+    "vue-tsc": "^3.2.6"
+  }
+}
