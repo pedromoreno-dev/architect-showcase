@@ -1,16 +1,27 @@
 {
+  "brand": {
+    "name": "The Modular Engineer"
+  },
+  "meta": {
+    "title": "The Modular Engineer | Arquitecto de Software & Experto n8n",
+    "description": "Pedro Moreno - Arquitecto de Software especializado en Soluciones SaaS para Fintech y Automatizaciones n8n. Construyendo sistemas modulares y escalables para startups que crecen."
+  },
   "nav": {
     "projects": "PROYECTOS",
     "solutions": "SOLUCIONES",
     "blog": "BLOG",
-    "contact": "CONTACTO"
+    "contact": "CONTACTO",
+    "language_toggle": "ES | EN",
+    "language_aria": "Cambiar a inglés"
   },
   "hero": {
     "badge": "λ ARQUITECTURA DE SOFTWARE",
     "title": "Diseñando el Cerebro Modular de tu Producto.",
     "description": "Ingeniería de alta precisión para startups que escalan. Construyo sistemas modulares, automatizaciones complejas y arquitecturas SaaS que respiran eficiencia.",
     "cta_primary": "Iniciar Proyecto",
-    "cta_secondary": "Ver Proyectos"
+    "cta_secondary": "Ver Proyectos",
+    "cta_primary_aria": "Iniciar un nuevo proyecto",
+    "cta_secondary_aria": "Ver proyectos del portafolio"
   },
   "solutions": {
     "title": "Solutions Hub",
@@ -61,11 +72,27 @@
     "status": "SYSTEM STATUS",
     "status_val": "Arquitectura Optimizada"
   },
+  "blog": {
+    "title": "Perspectivas de Ingeniería",
+    "description": "Análisis técnicos, patrones de arquitectura y lecciones aprendidas.",
+    "coming_soon": "Artículos Próximamente",
+    "placeholder_text": "Estoy preparando contenido profundo sobre arquitectura SaaS, flujos n8n y patrones de diseño modular.",
+    "status": "CONTENIDO EN PROGRESO"
+  },
   "cta_section": {
     "title": "Ready to scale?",
-    "button": "Hablemos hoy"
+    "button": "Hablemos hoy",
+    "button_aria": "Contactar por email"
   },
   "footer": {
-    "rights": "© 2024 The Modular Engineer. Built for scale."
+    "rights": "© 2026 THE MODULAR ENGINEER. TODOS LOS DERECHOS RESERVADOS.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "social": {
+      "github": "Perfil de GitHub",
+      "linkedin": "Perfil de LinkedIn",
+      "twitter": "Perfil de Twitter",
+      "cv": "Descargar CV"
+    }
   }
 }

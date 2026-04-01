@@ -31,13 +31,19 @@ const { t } = useI18n();
 
         <div class="flex flex-wrap gap-4">
           <UiMagneticButton>
-            <button class="px-8 py-4 bg-primary-white text-bg font-bold rounded-lg flex items-center space-x-2 hover:scale-[1.02] transition-transform">
+            <button
+              :aria-label="t('hero.cta_primary_aria')"
+              class="px-8 py-4 bg-primary-white text-bg font-bold rounded-lg flex items-center space-x-2 hover:scale-[1.02] transition-transform"
+            >
               <span>{{ t('hero.cta_primary') }}</span>
               <ArrowRight :size="18" />
             </button>
           </UiMagneticButton>
-          
-          <button class="px-8 py-4 glass glass-hover rounded-lg font-medium transition-all">
+
+          <button
+            :aria-label="t('hero.cta_secondary_aria')"
+            class="px-8 py-4 glass glass-hover rounded-lg font-medium transition-all"
+          >
             {{ t('hero.cta_secondary') }}
           </button>
         </div>

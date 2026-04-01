@@ -1,16 +1,27 @@
 {
+  "brand": {
+    "name": "The Modular Engineer"
+  },
+  "meta": {
+    "title": "The Modular Engineer | Software Architect & n8n Expert",
+    "description": "Pedro Moreno - Software Architect specialized in SaaS Solutions for Fintech and n8n Automations. Building scalable, modular systems for startups that grow."
+  },
   "nav": {
     "projects": "PROJECTS",
     "solutions": "SOLUTIONS",
     "blog": "BLOG",
-    "contact": "CONTACT"
+    "contact": "CONTACT",
+    "language_toggle": "EN | ES",
+    "language_aria": "Switch to Spanish"
   },
   "hero": {
     "badge": "λ SOFTWARE ARCHITECTURE",
     "title": "Designing your Product's Modular Brain.",
     "description": "High-precision engineering for startups that scale. I build modular systems, complex automations, and SaaS architectures that breathe efficiency.",
     "cta_primary": "Start Project",
-    "cta_secondary": "View Projects"
+    "cta_secondary": "View Projects",
+    "cta_primary_aria": "Start a new project",
+    "cta_secondary_aria": "View portfolio projects"
   },
   "solutions": {
     "title": "Solutions Hub",
@@ -61,11 +72,27 @@
     "status": "SYSTEM STATUS",
     "status_val": "Optimized Architecture"
   },
+  "blog": {
+    "title": "Engineering Insights",
+    "description": "Technical deep-dives, architecture patterns, and lessons learned.",
+    "coming_soon": "Articles Coming Soon",
+    "placeholder_text": "I'm preparing in-depth content about SaaS architecture, n8n workflows, and modular design patterns.",
+    "status": "CONTENT IN PROGRESS"
+  },
   "cta_section": {
     "title": "Ready to scale?",
-    "button": "Let's talk today"
+    "button": "Let's talk today",
+    "button_aria": "Contact via email"
   },
   "footer": {
-    "rights": "© 2024 The Modular Engineer. Built for scale."
+    "rights": "© 2026 THE MODULAR ENGINEER. ALL RIGHTS RESERVED.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "social": {
+      "github": "GitHub profile",
+      "linkedin": "LinkedIn profile",
+      "twitter": "Twitter profile",
+      "cv": "Download CV"
+    }
   }
 }

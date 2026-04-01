@@ -12,15 +12,12 @@
     "lint": "nuxi typecheck"
   },
   "dependencies": {
-    "@google/genai": "^1.47.0",
     "@intlify/core-base": "^11.3.0",
     "@intlify/shared": "^11.3.0",
     "@nuxtjs/i18n": "^10.2.4",
     "@vueuse/motion": "^3.0.3",
     "autoprefixer": "^10.4.27",
     "clsx": "^2.1.1",
-    "dotenv": "^17.3.1",
-    "express": "^5.2.1",
     "lucide-vue-next": "^1.0.0",
     "nuxt": "^4.4.2",
     "postcss": "^8.5.8",

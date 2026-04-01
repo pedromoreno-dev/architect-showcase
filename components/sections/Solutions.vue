@@ -9,7 +9,7 @@ const solutions = [
     icon: Code2,
     accent: 'accent-blue',
     label: 'SAAS DEVELOPMENT',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'Cloud Native']
+    tags: ['React', 'Node.js', 'PostgreSQL', 'Cloud Native'],
   },
   {
     id: 'automations',

@@ -6,6 +6,7 @@
       <SectionsSolutions />
       <SectionsPortfolio />
       <SectionsMindset />
+      <SectionsBlog />
     </main>
     <SectionsFooter />
   </div>
