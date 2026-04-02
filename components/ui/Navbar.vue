@@ -12,9 +12,9 @@ const navItems = ['projects', 'solutions', 'blog', 'contact'];
   <nav class="fixed top-0 w-full z-50 glass">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <div class="font-headline font-bold text-xl tracking-tighter">
-        The Modular Engineer
+        {{ t('brand.name') }}
       </div>
-      
+
       <div class="hidden md:flex items-center space-x-8">
         <a
           v-for="item in navItems"
@@ -28,9 +28,10 @@ const navItems = ['projects', 'solutions', 'blog', 'contact'];
 
       <button
         @click="toggleLanguage"
+        :aria-label="t('nav.language_aria')"
         class="font-headline text-sm font-medium hover:opacity-70 transition-opacity uppercase"
       >
-        {{ locale === 'en' ? 'EN | ES' : 'ES | EN' }}
+        {{ t('nav.language_toggle') }}
       </button>
     </div>
   </nav>

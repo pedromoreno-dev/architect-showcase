@@ -11,6 +11,24 @@ const principles = [
 
 const gridSquares = Array.from({ length: 25 });
 
+// Pre-generated deterministic values for SSR-safe animations
+const squareTimings = [
+  4200, 3800, 5100, 2900, 4400,
+  3600, 4800, 3200, 5500, 4100,
+  3300, 4900, 2700, 5200, 3700,
+  4500, 3100, 5300, 2800, 4600,
+  3900, 5400, 3400, 5000, 4300
+];
+const squareDelays = [
+  1200, 800, 1500, 400, 1800,
+  600, 1300, 200, 1900, 1000,
+  500, 1700, 0, 1600, 700,
+  1100, 300, 1400, 900, 1200,
+  400, 1500, 800, 1300, 600
+];
+// Indices where nodes should appear (deterministic, ~30% of grid)
+const nodeIndices = new Set([2, 5, 8, 12, 15, 18, 22]);
+
 // Animation Variants
 const pulseVariant = {
   initial: { opacity: 1 },
@@ -34,9 +52,9 @@ const squareVariant = (i: number) => ({
     opacity: [0.3, 0.6, 0.3],
     backgroundColor: i === 12 ? 'rgba(0, 112, 243, 0.2)' : 'rgba(255, 255, 255, 0.05)',
     transition: {
-      duration: Math.random() * 3000 + 2000,
+      duration: squareTimings[i] ?? 3000,
       repeat: Infinity,
-      delay: Math.random() * 2000
+      delay: squareDelays[i] ?? 0
     }
   }
 });
@@ -78,7 +96,7 @@ const coreVariant = {
             class="w-2 h-2 bg-accent-green rounded-full"
           />
           <span class="font-label text-[10px] tracking-widest text-accent-green uppercase flex items-center gap-2">
-            SYSTEM STATUS: Optimized Architecture
+            {{ t('mindset.status') }}: {{ t('mindset.status_val') }}
             <div
               v-motion="rotateVariant"
             >
@@ -127,7 +145,7 @@ const coreVariant = {
             <div class="absolute inset-x-3 top-3/4 h-[1px] bg-white/10" />
             
             <div
-              v-if="Math.random() > 0.7 || i === 12"
+              v-if="nodeIndices.has(i)"
               v-motion="nodeVariant"
               :class="`w-1.5 h-1.5 rounded-full ${i === 12 ? 'bg-accent-blue shadow-[0_0_15px_rgba(0,112,243,0.5)]' : 'bg-white/20'}`"
             />

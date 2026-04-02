@@ -1,16 +1,27 @@
 {
+  "brand": {
+    "name": "Pedro Moreno"
+  },
+  "meta": {
+    "title": "Pedro Moreno | Arquitecto de Software: Experto en SaaS y Automatización",
+    "description": "Pedro Moreno - Arquitecto de Software especializado en Soluciones SaaS para Fintech y Automatizaciones n8n. Construyendo sistemas modulares y escalables para startups que crecen."
+  },
   "nav": {
     "projects": "PROYECTOS",
     "solutions": "SOLUCIONES",
     "blog": "BLOG",
-    "contact": "CONTACTO"
+    "contact": "CONTACTO",
+    "language_toggle": "ES | EN",
+    "language_aria": "Cambiar a inglés"
   },
   "hero": {
     "badge": "λ ARQUITECTURA DE SOFTWARE",
     "title": "Diseñando el Cerebro Modular de tu Producto.",
     "description": "Ingeniería de alta precisión para startups que escalan. Construyo sistemas modulares, automatizaciones complejas y arquitecturas SaaS que respiran eficiencia.",
     "cta_primary": "Iniciar Proyecto",
-    "cta_secondary": "Ver Proyectos"
+    "cta_secondary": "Ver Proyectos",
+    "cta_primary_aria": "Iniciar un nuevo proyecto",
+    "cta_secondary_aria": "Ver proyectos del portafolio"
   },
   "solutions": {
     "title": "Solutions Hub",
@@ -61,11 +72,80 @@
     "status": "SYSTEM STATUS",
     "status_val": "Arquitectura Optimizada"
   },
+  "blog": {
+    "title": "Perspectivas de Ingeniería",
+    "description": "Análisis técnicos, patrones de arquitectura y lecciones aprendidas.",
+    "coming_soon": "Artículos Próximamente",
+    "placeholder_text": "Estoy preparando contenido profundo sobre arquitectura SaaS, flujos n8n y patrones de diseño modular.",
+    "status": "CONTENIDO EN PROGRESO"
+  },
   "cta_section": {
     "title": "Ready to scale?",
-    "button": "Hablemos hoy"
+    "button": "Hablemos hoy",
+    "button_aria": "Contactar por email"
+  },
+  "contact": {
+    "badge": "λ CONECTEMOS",
+    "title": "Construyamos algo juntos.",
+    "description": "¿Tienes un proyecto en mente o simplemente quieres explorar posibilidades? Me encantaría escuchar tu visión.",
+    "direct_contact": "Contacto Directo",
+    "connect": "Conecta conmigo",
+    "response_time": "Normalmente respondo en menos de 24 horas durante días laborables.",
+    "form": {
+      "name": "Nombre",
+      "name_placeholder": "Tu nombre completo",
+      "email": "Email",
+      "email_placeholder": "tu{'@'}email.com",
+      "project_type": "Tipo de Proyecto",
+      "select_type": "Selecciona una opción",
+      "message": "Mensaje",
+      "message_placeholder": "Cuéntame sobre tu proyecto, objetivos y timeline...",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success_title": "¡Mensaje enviado!",
+      "success_message": "Gracias por contactarme. Te responderé lo antes posible.",
+      "send_another": "Enviar otro mensaje"
+    }
   },
   "footer": {
-    "rights": "© 2024 The Modular Engineer. Built for scale."
+    "rights": "© 2026 THE MODULAR ENGINEER. TODOS LOS DERECHOS RESERVADOS.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "social": {
+      "github": "Perfil de GitHub",
+      "linkedin": "Perfil de LinkedIn",
+      "twitter": "Perfil de Twitter",
+      "cv": "Descargar CV"
+    }
+  },
+  "legal": {
+    "privacy_policy": {
+      "title": "Política de Privacidad",
+      "last_updated": "Última actualización: Abril 2026",
+      "section1_title": "1. Información que Recopilo",
+      "section1_desc": "Recopilo información que me proporcionas directamente, como cuando completas el formulario de contacto en este sitio web. Esto incluye tu nombre y dirección de correo electrónico.",
+      "section2_title": "2. Cómo Uso tu Información",
+      "section2_desc": "Uso la información recopilada para responder a tus consultas y comunicarme contigo sobre proyectos o servicios potenciales.",
+      "section3_title": "3. Retención de Datos",
+      "section3_desc": "Conservo tu información personal solo durante el tiempo necesario para cumplir con los fines para los que fue recopilada, a menos que se requiera un período de retención más largo por ley.",
+      "section4_title": "4. Tus Derechos",
+      "section4_desc": "Tienes derecho a acceder, corregir o eliminar tu información personal. También puedes optar por no recibir comunicaciones de mi parte en cualquier momento contactándome directamente.",
+      "section5_title": "5. Contacto",
+      "section5_desc": "Si tienes alguna pregunta sobre esta Política de Privacidad, por favor contacta conmigo en"
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "last_updated": "Última actualización: Abril 2026",
+      "section1_title": "1. Aceptación de los Términos",
+      "section1_desc": "Al acceder y utilizar este sitio web, aceptas y aceptas estar bound by these Términos de Servicio. Si no estás de acuerdo con alguna parte de estos términos, por favor no uses este sitio web.",
+      "section2_title": "2. Descripción de los Servicios",
+      "section2_desc": "Este sitio web muestra servicios de arquitectura de software, desarrollo SaaS y automatización ofrecidos por Pedro Moreno. La información proporcionada es solo para fines informativos.",
+      "section3_title": "3. Propiedad Intelectual",
+      "section3_desc": "Todo el contenido de este sitio web, incluyendo pero no limitado a texto, gráficos, logotipos e imágenes, es propiedad de Pedro Moreno y está protegido por las leyes de propiedad intelectual aplicables.",
+      "section4_title": "4. Limitación de Responsabilidad",
+      "section4_desc": "Este sitio web se proporciona \"tal cual\" sin garantías de ningún tipo. Pedro Moreno no será responsable de ningún daño derivado del uso de este sitio web o los servicios descritos aquí.",
+      "section5_title": "5. Contacto",
+      "section5_desc": "Para preguntas sobre estos Términos de Servicio, por favor contacta conmigo en"
+    }
   }
 }
