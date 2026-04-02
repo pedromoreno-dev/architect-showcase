@@ -1,9 +1,9 @@
 {
   "brand": {
-    "name": "The Modular Engineer"
+    "name": "Pedro Moreno"
   },
   "meta": {
-    "title": "The Modular Engineer | Software Architect & n8n Expert",
+    "title": "Pedro Moreno | Software Architect: SaaS & Automation Expert",
     "description": "Pedro Moreno - Software Architect specialized in SaaS Solutions for Fintech and n8n Automations. Building scalable, modular systems for startups that grow."
   },
   "nav": {
@@ -84,6 +84,29 @@
     "button": "Let's talk today",
     "button_aria": "Contact via email"
   },
+  "contact": {
+    "badge": "λ LET'S CONNECT",
+    "title": "Let's build something together.",
+    "description": "Have a project in mind or just want to explore possibilities? I'd love to hear your vision.",
+    "direct_contact": "Direct Contact",
+    "connect": "Connect with me",
+    "response_time": "I typically respond within 24 hours on business days.",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your full name",
+      "email": "Email",
+      "email_placeholder": "your{'@'}email.com",
+      "project_type": "Project Type",
+      "select_type": "Select an option",
+      "message": "Message",
+      "message_placeholder": "Tell me about your project, goals and timeline...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success_title": "Message sent!",
+      "success_message": "Thanks for reaching out. I'll get back to you as soon as possible.",
+      "send_another": "Send another message"
+    }
+  },
   "footer": {
     "rights": "© 2026 THE MODULAR ENGINEER. ALL RIGHTS RESERVED.",
     "privacy": "Privacy Policy",
@@ -93,6 +116,36 @@
       "linkedin": "LinkedIn profile",
       "twitter": "Twitter profile",
       "cv": "Download CV"
+    }
+  },
+  "legal": {
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "last_updated": "Last updated: April 2026",
+      "section1_title": "1. Information I Collect",
+      "section1_desc": "I collect information you provide directly to me, such as when you fill out the contact form on this website. This includes your name and email address.",
+      "section2_title": "2. How I Use Your Information",
+      "section2_desc": "I use the information collected to respond to your inquiries and communicate with you about potential projects or services.",
+      "section3_title": "3. Data Retention",
+      "section3_desc": "I retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, unless a longer retention period is required by law.",
+      "section4_title": "4. Your Rights",
+      "section4_desc": "You have the right to access, correct, or delete your personal information. You may also opt out of receiving communications from me at any time by contacting me directly.",
+      "section5_title": "5. Contact",
+      "section5_desc": "If you have any questions about this Privacy Policy, please contact me at"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "last_updated": "Last updated: April 2026",
+      "section1_title": "1. Acceptance of Terms",
+      "section1_desc": "By accessing and using this website, you accept and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use this website.",
+      "section2_title": "2. Services Description",
+      "section2_desc": "This website showcases software architecture, SaaS development, and automation services offered by Pedro Moreno. The information provided is for informational purposes only.",
+      "section3_title": "3. Intellectual Property",
+      "section3_desc": "All content on this website, including but not limited to text, graphics, logos, and images, is the property of Pedro Moreno and protected by applicable intellectual property laws.",
+      "section4_title": "4. Limitation of Liability",
+      "section4_desc": "This website is provided \"as is\" without warranties of any kind. Pedro Moreno shall not be liable for any damages arising from the use of this website or the services described herein.",
+      "section5_title": "5. Contact",
+      "section5_desc": "For questions about these Terms of Service, please contact me at"
     }
   }
 }

@@ -2,12 +2,12 @@
  * Composable for i18n-aware SEO meta tags
  * Sets up title, description, and Open Graph tags based on current locale
  */
-export const useSeo = () => {
+export const useSeo = (overrides?: { title?: string; description?: string }) => {
   const { t, locale } = useI18n();
 
   const setMeta = () => {
-    const title = t('meta.title');
-    const description = t('meta.description');
+    const title = overrides?.title ?? t('meta.title');
+    const description = overrides?.description ?? t('meta.description');
     const ogImage = '/og-image.png';
 
     useHead({

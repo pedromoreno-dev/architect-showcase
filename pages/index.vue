@@ -7,6 +7,7 @@
       <SectionsPortfolio />
       <SectionsMindset />
       <SectionsBlog />
+      <SectionsContact />
     </main>
     <SectionsFooter />
   </div>
