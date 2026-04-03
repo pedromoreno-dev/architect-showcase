@@ -11,9 +11,12 @@ const navItems = ['projects', 'solutions', 'blog', 'contact'];
 <template>
   <nav class="fixed top-0 w-full z-50 glass">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-      <div class="font-headline font-bold text-xl tracking-tighter">
-        {{ t('brand.name') }}
-      </div>
+      <NuxtLink to="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+        <img src="/logo.svg" alt="Logo" class="h-10 w-auto object-contain" />
+        <div class="font-headline font-bold text-xl tracking-tighter">
+          {{ t('brand.name') }}
+        </div>
+      </NuxtLink>
 
       <div class="hidden md:flex items-center space-x-8">
         <a
