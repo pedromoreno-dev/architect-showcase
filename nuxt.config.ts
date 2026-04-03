@@ -6,8 +6,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/i18n',
-    '@vueuse/motion/nuxt'
+    '@vueuse/motion/nuxt',
+    '@vercel/speed-insights/nuxt'
   ],
+  runtimeConfig: {
+    resendApiKey: process.env.RESEND_API_KEY
+  },
   vite: {
     plugins: [
       tailwindcss(),
@@ -33,8 +37,8 @@ export default defineNuxtConfig({
         { name: 'msapplication-TileColor', content: '#0a0a0a' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'apple-touch-icon', href: '/favicon.svg' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap' }
       ]
     }

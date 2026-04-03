@@ -22,9 +22,22 @@ const submitted = ref(false);
 
 const submitForm = async () => {
   isSubmitting.value = true;
-  await new Promise(resolve => setTimeout(resolve, 1500));
-  submitted.value = true;
-  isSubmitting.value = false;
+  try {
+    const response = await $fetch<any>('/api/contact', {
+      method: 'POST',
+      body: form.value
+    });
+    
+    if (response?.success) {
+      submitted.value = true;
+    }
+  } catch (error) {
+    console.error('Error sending message:', error);
+    // Podríamos añadir un estado de error visual aquí si quieres
+    alert('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.');
+  } finally {
+    isSubmitting.value = false;
+  }
 };
 
 const resetForm = () => {
