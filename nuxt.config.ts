@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@vueuse/motion/nuxt',
-    '@vercel/speed-insights/nuxt'
+    '@vercel/speed-insights/nuxt',
+    '@vercel/analytics/nuxt'
   ],
   runtimeConfig: {
     resendApiKey: process.env.RESEND_API_KEY
