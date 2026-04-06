@@ -7,7 +7,8 @@ const projects = [
   {
     id: 'project1',
     image: 'https://picsum.photos/seed/tech1/1200/800',
-    tags: ['SaaS', 'React', 'Node.js']
+    tags: ['SaaS', 'React', 'Node.js'],
+    url: 'https://billflow.pedromoreno.dev/'
   },
   {
     id: 'project2',
@@ -36,14 +37,17 @@ const projects = [
       </div>
 
       <div class="grid md:grid-cols-2 gap-12">
-        <div
+        <a
           v-for="(project, index) in projects"
           :key="project.id"
+          :href="project.url || '#'"
+          target="_blank"
+          rel="noopener"
           v-motion
           :initial="{ opacity: 0, y: 20 }"
           :visible-once="{ opacity: 1, y: 0 }"
           :transition="{ duration: 600, delay: index * 100 }"
-          class="group cursor-pointer"
+          class="group block"
         >
           <div class="relative aspect-[16/10] overflow-hidden rounded-[2.5rem] mb-8 glass">
             <img
@@ -78,7 +82,7 @@ const projects = [
               <ArrowUpRight :size="20" />
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
