@@ -42,7 +42,7 @@ export default defineEventHandler(async (event) => {
 
     return { success: true, data };
   } catch (error: any) {
-    return createError({
+    throw createError({
       statusCode: 500,
       statusMessage: error.message || 'Error sending email',
       data: error

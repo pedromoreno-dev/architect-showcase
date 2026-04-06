@@ -61,6 +61,13 @@
       "description": "n8n flow orchestration for global e-commerce optimization."
     }
   },
+  "about": {
+    "title": "The Mindset",
+    "block1": "I don't just write code; I build digital infrastructures that allow businesses to scale friction-free. My approach merges the robustness of SaaS architecture with the agility of automation.",
+    "block2": "Obsessed with Clean Code and security from the first commit. I leverage Java, TypeScript, and Snyk to ensure every solution is a shielded asset.",
+    "block3": "Proactive efficiency: Through n8n, I transform manual processes into intelligent workflows, giving strategic time back to teams.",
+    "closing": "If you are looking for a programmer, there are thousands. If you need an architect for your next challenge, let's talk."
+  },
   "mindset": {
     "title": "The Mindset Behind the Code.",
     "item1_title": "Modular Abstraction",

@@ -3,6 +3,12 @@ import { Code2, Cpu, Zap } from 'lucide-vue-next';
 
 const { t } = useI18n();
 
+const accentColors = {
+  'accent-blue': { color: '#0070F3', rgb: '0, 112, 243' },
+  'accent-green': { color: '#00C853', rgb: '0, 200, 83' },
+  'accent-amber': { color: '#FFB000', rgb: '255, 176, 0' },
+};
+
 const solutions = [
   {
     id: 'saas',
@@ -16,7 +22,7 @@ const solutions = [
     icon: Zap,
     accent: 'accent-green',
     label: 'INTELLIGENT AUTOMATION',
-    tags: ['n8n', 'Python', 'AI Agents', 'Workflow Design']
+    tags: ['n8n', 'AI Agents', 'Workflow Design']
   },
   {
     id: 'consulting',
@@ -58,14 +64,22 @@ const solutions = [
           :transition="{ duration: 600, delay: index * 100 }"
           class="group relative glass glass-hover p-10 rounded-[2rem] flex flex-col h-full overflow-hidden"
         >
-          <div :class="`absolute -top-20 -right-20 w-40 h-40 bg-${solution.accent}/10 rounded-full blur-[60px] group-hover:bg-${solution.accent}/20 transition-all duration-500`" />
+          <div 
+            :style="{
+              background: `radial-gradient(circle at 100% 0%, ${accentColors[solution.accent].color}60 0%, transparent 60%)`
+            }"
+            class="absolute -top-24 -right-24 w-72 h-72 rounded-full blur-[100px] group-hover:blur-[120px] transition-all duration-500"
+          />
           
-          <div :class="`w-14 h-14 rounded-2xl bg-${solution.accent}/10 flex items-center justify-center mb-8 border border-${solution.accent}/20`" >
-            <component :is="solution.icon" :class="`text-${solution.accent}`" :size="28" />
+          <div 
+            :style="{ backgroundColor: `${accentColors[solution.accent].color}20`, borderColor: `${accentColors[solution.accent].color}30` }"
+            class="w-14 h-14 rounded-2xl flex items-center justify-center mb-8 border"
+          >
+            <component :is="solution.icon" :style="{ color: accentColors[solution.accent].color }" :size="28" />
           </div>
 
           <div class="mb-4">
-            <span :class="`font-label text-[10px] tracking-widest text-${solution.accent} uppercase font-bold`" >
+            <span :style="{ color: accentColors[solution.accent].color }" class="font-label text-[10px] tracking-widest uppercase font-bold" >
               {{ solution.label }}
             </span>
           </div>

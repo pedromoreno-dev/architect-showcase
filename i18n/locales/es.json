@@ -61,6 +61,13 @@
       "description": "Orquestación de flujos n8n para optimización de e-commerce global."
     }
   },
+  "about": {
+    "title": "La Mentalidad",
+    "block1": "No solo escribo código; construyo infraestructuras digitales que permiten a los negocios escalar sin fricciones. Mi enfoque une la robustez de la arquitectura SaaS con la agilidad de la automatización.",
+    "block2": "Obsesionado con el Clean Code y la seguridad desde el primer commit. Utilizo tecnologías como Java, TypeScript y Snyk para asegurar que cada solución sea un activo blindado.",
+    "block3": "Eficiencia proactiva: Mediante n8n, transformo procesos manuales en flujos de trabajo inteligentes, devolviendo tiempo estratégico a los equipos.",
+    "closing": "Si buscas un programador, hay miles. Si buscas un arquitecto para tu próximo reto, hablemos."
+  },
   "mindset": {
     "title": "La Mentalidad detrás del Código.",
     "item1_title": "Abstracción Modular",

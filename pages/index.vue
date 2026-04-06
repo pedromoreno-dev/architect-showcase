@@ -5,6 +5,7 @@
       <SectionsHero />
       <SectionsSolutions />
       <SectionsPortfolio />
+      <SectionsAboutMe />
       <SectionsMindset />
       <SectionsBlog />
       <SectionsContact />
