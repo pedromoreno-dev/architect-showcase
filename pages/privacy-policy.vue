@@ -40,7 +40,7 @@ useSeo({
 
         <section>
           <h2 class="font-headline text-xl font-bold mb-4 text-white/90">{{ t('legal.privacy_policy.section5_title') }}</h2>
-          <p>{{ t('legal.privacy_policy.section5_desc') }} <a href="mailto:pedromorenotrenado@gmail.com" class="text-accent-blue hover:underline">pedromorenotrenado@gmail.com</a>.</p>
+          <p>{{ t('legal.privacy_policy.section5_desc') }} <a href="mailto:hola@pedromoreno.dev" class="text-accent-blue hover:underline">hola@pedromoreno.dev</a>.</p>
         </section>
       </div>
     </article>
