@@ -167,9 +167,9 @@ const resetForm = () => {
       </div>
 
       <div class="flex items-center justify-center gap-6 mt-10">
-        <a href="mailto:pedromorenotrenado@gmail.com" class="flex items-center gap-2 text-white/50 hover:text-accent-blue transition-colors">
+        <a href="mailto:hola@pedromoreno.dev" class="flex items-center gap-2 text-white/50 hover:text-accent-blue transition-colors">
           <Mail :size="16" />
-          <span class="font-body text-sm">pedromorenotrenado@gmail.com</span>
+          <span class="font-body text-sm">hola@pedromoreno.dev</span>
         </a>
         <span class="text-white/20">•</span>
         <div class="flex items-center gap-3">

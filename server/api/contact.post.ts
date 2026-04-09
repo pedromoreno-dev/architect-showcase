@@ -3,7 +3,7 @@ import { Resend } from 'resend';
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
   const { name, email, projectType, message } = body;
-  
+
   const config = useRuntimeConfig();
 
   // Si no hay API key, lanzamos un error claro
@@ -19,7 +19,7 @@ export default defineEventHandler(async (event) => {
   try {
     const { data, error } = await resend.emails.send({
       from: 'Architect Showcase <onboarding@resend.dev>',
-      to: ['pedromorenotrenado@gmail.com'],
+      to: ['hola@pedromoreno.dev'],
       subject: `New Project Inquiry: ${projectType}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; background: #0a0a0a; color: #ffffff; padding: 40px; border-radius: 20px; border: 1px solid #333;">
