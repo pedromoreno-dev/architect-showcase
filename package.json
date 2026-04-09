@@ -12,8 +12,8 @@
     "lint": "nuxi typecheck"
   },
   "dependencies": {
-    "@intlify/core-base": "^11.3.1",
-    "@intlify/shared": "^11.3.1",
+    "@intlify/core-base": "^11.3.2",
+    "@intlify/shared": "^11.3.2",
     "@nuxtjs/i18n": "^10.2.4",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
@@ -22,12 +22,12 @@
     "clsx": "^2.1.1",
     "lucide-vue-next": "^1.0.0",
     "nuxt": "^4.4.2",
-    "postcss": "^8.5.8",
+    "postcss": "^8.5.9",
     "resend": "^6.10.0",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.2",
     "vue": "^3.5.32",
-    "vue-i18n": "^11.3.1",
+    "vue-i18n": "^11.3.2",
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
