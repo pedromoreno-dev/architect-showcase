@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Architect Showcase <onboarding@resend.dev>',
+      from: 'Architect Showcase <hola@pedromoreno.dev>',
       to: ['hola@pedromoreno.dev'],
       subject: `New Project Inquiry: ${projectType}`,
       html: `
